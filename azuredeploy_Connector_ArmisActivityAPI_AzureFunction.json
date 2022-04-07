@@ -23,7 +23,7 @@
         "ArmisURL":{
             "type": "string",
             "defaultValue": "<ArmisURL>"
-        }
+        },
         "ArmisActivitiesTableName":{
             "type": "string",
             "defaultValue": "<ArmisActivitiesTableName>"
