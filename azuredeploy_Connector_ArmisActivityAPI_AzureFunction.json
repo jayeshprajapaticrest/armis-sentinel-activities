@@ -5,7 +5,7 @@
         "FunctionName": {
             "defaultValue": "ArmisActivity",
             "minLength": 1,
-            "maxLength": 13,
+            "maxLength": 11,
             "type": "string"
         },
         "WorkspaceID": {
