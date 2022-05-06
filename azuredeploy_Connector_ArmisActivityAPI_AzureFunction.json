@@ -27,6 +27,10 @@
         "ArmisActivitiesTableName":{
             "type": "string",
             "defaultValue": "<ArmisActivitiesTableName>"
+        },
+        "ArmisSchedule":{
+            "type": "string",
+            "defaultValue": "<Cron Expression>"
         }
     },
     "variables": {
@@ -159,6 +163,7 @@
                         "ArmisSecretKey": "[parameters('ArmisSecretKey')]",
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
+                        "Schedule": "[parameters('ArmisSchedule')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/main/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
