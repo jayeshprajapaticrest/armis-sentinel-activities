@@ -164,7 +164,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/main/ArmisActivitySentinelConnector.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
             ]
