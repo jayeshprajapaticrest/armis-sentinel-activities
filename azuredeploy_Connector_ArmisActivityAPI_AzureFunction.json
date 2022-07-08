@@ -9,7 +9,8 @@
             "type": "string"
         },
         "WorkspaceID": {
-            "type": "boolean"
+            "type": "string",
+            "defaultValue": "<workspaceID>"
         },
         "WorkspaceKey": {
             "type": "string",
