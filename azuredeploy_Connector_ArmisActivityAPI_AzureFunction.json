@@ -25,12 +25,16 @@
             "defaultValue": "<ArmisURL>"
         },
         "ArmisActivitiesTableName":{
-            "type": "bool",
-            "defaultValue": true
+            "type": "string",
+            "defaultValue": "<ArmisActivitiesTableName>"
         },
         "ArmisSchedule":{
             "type": "string",
             "defaultValue": "<Cron Expression>"
+        }        
+        "AddOneSecondFlag":{
+            "type": "bool",
+            "defaultValue": true
         }
     },
     "variables": {
@@ -163,7 +167,8 @@
                         "ArmisSecretKey": "[parameters('ArmisSecretKey')]",
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
-                        "Schedule": "[parameters('ArmisSchedule')]",
+                        "Schedule": "[parameters('ArmisSchedule')]",                        
+                        "Do you want to add plus 1 second to avoid duplication of data?": "[parameters('ArmisSchedule')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
