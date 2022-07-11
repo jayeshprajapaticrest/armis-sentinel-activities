@@ -32,7 +32,7 @@
             "type": "string",
             "defaultValue": "<Cron Expression>"
         },
-        "AddOneSecondFlag":{
+        "AddOneSecondFlag2":{
             "type": "bool",
             "defaultValue": true
         }
@@ -168,8 +168,8 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",                        
-                        "AddOneSecondFlag1": "[parameters('AddOneSecondFlag')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
+                        "AddOneSecondFlag1": "[parameters('AddOneSecondFlag2')]",
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://gitAddOneSecondFlag2hub.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
             ]
