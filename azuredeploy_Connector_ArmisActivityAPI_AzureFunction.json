@@ -25,8 +25,8 @@
             "defaultValue": "<ArmisURL>"
         },
         "ArmisActivitiesTableName":{
-            "type": "bool",
-            "defaultValue": false
+            "type": "string",
+            "defaultValue": "<ArmisActivitiesTableName>"
         },
         "ArmisSchedule":{
             "type": "string",
