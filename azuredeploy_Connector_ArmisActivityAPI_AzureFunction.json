@@ -170,7 +170,7 @@
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",                        
                         "AvoidDuplicates": "[parameters('AvoidDuplicates')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://gitAddOneSecondFlag2hub.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
             ]
