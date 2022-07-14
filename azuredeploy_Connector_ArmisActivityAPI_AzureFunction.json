@@ -34,7 +34,7 @@
         },
         "AvoidDuplicates":{
             "type": "bool",
-            "defaultValue": true,
+            "defaultValue": false,
             "toolTip": "This is a tool tip"
         }
     },
