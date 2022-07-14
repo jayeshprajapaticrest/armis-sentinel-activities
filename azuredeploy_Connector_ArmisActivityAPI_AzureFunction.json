@@ -32,9 +32,10 @@
             "type": "string",
             "defaultValue": "<Cron Expression>"
         },
-        "Add plus 1 second to avoid duplication":{
+        "AvoidDuplicates":{
             "type": "bool",
-            "defaultValue": true
+            "defaultValue": true,
+            "toolTip": "This is a tool tip"
         }
     },
     "variables": {
@@ -168,7 +169,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisActivitiesTableName": "[parameters('ArmisActivitiesTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",                        
-                        "Add plus 1 second to avoid duplication": "[parameters('AddOneSecond')]",
+                        "AvoidDuplicates": "[parameters('AvoidDuplicates')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://gitAddOneSecondFlag2hub.com/jayeshprajapaticrest/armis-sentinel-activities/blob/Armis-Latest-Build-23052022/ArmisActivitySentinelConnector.zip?raw=true"
                     }
                 }
